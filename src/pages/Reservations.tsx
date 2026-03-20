@@ -16,6 +16,7 @@ const Prenotations = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     const port = import.meta.env.VITE_API_URL;
+    console.log(port);
     e.preventDefault();
     setLoading(true);
     try {
