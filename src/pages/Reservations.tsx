@@ -5,7 +5,7 @@ const Prenotations = () => {
   const [formData, setFormData] = useState({
     name: "",
     surname: "",
-    table_pre: "",
+    table_pre: 1,
   });
   const [loading, setLoading] = useState(false);
 
